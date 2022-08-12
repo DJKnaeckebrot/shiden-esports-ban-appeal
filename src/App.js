@@ -123,5 +123,5 @@ export default App;
 export const oauth = new DiscordOauth2({
     clientId: process.env.REACT_APP_CLIENT_ID,
     clientSecret: process.env.REACT_APP_CLIENT_SECRET,
-    redirectUri: window.location.origin + "/callback",
+    redirectUri: "https://shiden-esports-ban-appeal.netlify.app" + "/callback",
 });
